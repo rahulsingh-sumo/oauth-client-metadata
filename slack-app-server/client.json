@@ -4,7 +4,8 @@
   "redirect_uris": [
     "http://localhost/sumo/oauth/callback",
     "http://127.0.0.1/sumo/oauth/callback",
-    "http://[::1]/sumo/oauth/callback"
+    "http://[::1]/sumo/oauth/callback",
+    "https://darkness-subprime-eagle.ngrok-free.dev/sumo/oauth/callback"
   ],
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
